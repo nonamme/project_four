@@ -1,0 +1,85 @@
+body {
+	background-color: #222;
+	font-family: font-family: 'Roboto', sans-serif, Vertical;
+}
+
+nav,
+nav > div > div:first-child > button {
+	background-color: #333;
+	border-radius: 3px;
+}
+
+nav > div.btn-group {
+	padding: 0;
+}
+
+nav > div.btn-group button {
+	border-radius: 0;
+	border: none;
+	padding: 10px 40px;
+	color: #fff;
+	background-color: #333;
+}
+
+nav > form {
+	padding: 0;
+}
+
+nav > form > div {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+
+article {
+	position: relative;
+	top: 10px;
+	color: #fff;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+article:first-child {
+	border-left: none;
+}
+
+article:last-child {
+	border-right: none;
+}
+
+article p {
+	font-size: 8pt;
+}
+
+#main {
+
+}
+
+#top {
+	height: 70px;
+}
+
+#top h3 {
+	color: #fff;
+}
+
+#album {
+	background-color: #444;
+	height: 400px;
+}
+
+#bottom {
+	background-color: #333;
+	height: 200px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.no-paddings {
+	padding: 0;
+}
+
+.bxslider li img {
+	width: 100%;
+	height: 370px;
+}

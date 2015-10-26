@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel='stylesheet' type='text/css' href='css/jquery.bxslider.css'/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<title>LOCUS ADVERTISING | FREE SAMPLE</title>
+</head>
+<body>
+<div id="main" class="container">
+	<div id="top" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h3><strong>LOCUS</strong> ADVERTISING</h3>
+	</div>
+	<nav class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-paddings">
+		<div class="btn-group col-xs-8 col-sm-8 col-md-8 col-lg-8" role="group">
+			<div class="btn-group" role='group'>
+				<button type="button" class="btn btn-default">Home</button>
+			</div>
+			<div class="btn-group" role='group'>
+				<button type="button" class="btn btn-default">About</button>
+			</div>
+			<div class="btn-group" role='group'>
+				<button type="button" class="btn btn-default">Portfolio</button>
+			</div>
+			<div class="btn-group" role='group'>
+				<button type="button" class="btn btn-default">News</button>
+			</div>
+			<div class="btn-group" role='group'>
+				<button type="button" class="btn btn-default">Contact</button>
+			</div>
+		</div>
+		<form class="navbar-form navbar-left" role="search">
+       		<div class="form-group">
+         		<input type="text" class="form-control input-sm" placeholder="Search">
+        	</div>
+      	</form>
+		
+	</nav>
+	<div id="album" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<ul class='bxslider'>
+			<li><img src="gallery/images.jpg"></li>
+			<li><img src="gallery/images2.jpg"></li>
+			<li><img src="gallery/pobrane.jpg"></li>
+		</ul>
+	</div>
+	<div id="bottom" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<article class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+			<figure>
+				<img src="files/web_icon.png" alt="">
+			</figure>
+			<h4>Web Design</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec quam ac arcu tincidunt vestibulum sit amet pulvinar magna.</p>
+		</article>
+		<article class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+			<figure>
+				<img src="files/photography_icon.png" alt="">
+			</figure>
+			<h4>Photography</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec quam ac arcu tincidunt vestibulum sit amet pulvinar magna.</p>
+		</article>
+		<article class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+			<figure>
+				<img src="files/video_icon.png" alt="">
+			</figure>
+			<h4>Video</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec quam ac arcu tincidunt vestibulum sit amet pulvinar magna.</p>
+		</article>
+		<article class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+			<figure>
+				<img src="files/printer_icon.png" alt="">
+			</figure>
+			<h4>Graphic Design</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec quam ac arcu tincidunt vestibulum sit amet pulvinar magna.</p>
+		</article>
+		<article class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+			<figure>
+				<img src="files/cart_icon.png" alt="">
+			</figure>
+			<h4>E-Commerce</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec quam ac arcu tincidunt vestibulum sit amet pulvinar magna.</p>
+		</article>
+		<article class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">
+			<figure>
+				<img src="files/programming_icon.png" alt="">
+			</figure>
+			<h4>Programming</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec quam ac arcu tincidunt vestibulum sit amet pulvinar magna.</p>
+		</article>
+	</div>
+</div>
+<script>
+	$(document).ready(function(){
+  		$('.bxslider').bxSlider();
+	});
+	</script>
+</body>
+</html>
